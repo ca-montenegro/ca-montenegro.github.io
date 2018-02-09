@@ -2,5 +2,18 @@
 	"about": {
 		"description": "Hi, I am 20 years old. I live with my family in Bogotá, Colombia. I´m currently pursuing a BS degree in Computer Science at University of Los Andes.",
 		"subdescription": "I have great interest in software and business architecture, projects oriented to IT and transactional systems."
-	}
+	},
+	"workExperience": [{
+			"role": "Undergraduate Research Assitant",
+			"description": "Working in a PhD project based on Business Process Simulating with Deep Learning",
+			"dates": "Feb/2017-Present",
+			"image": "img/graduated-logo.png"
+		},
+		{
+			"role": "Undergraduate Research Assitant",
+			"description": "Worked as assistant towards a PhD project that involves Tensor Flow, deep learning and repository data mining.",
+			"dates": "Aug/2017-Dec/2017",
+			"image": "img/graduated-logo.png"
+		}
+	]
 }]
