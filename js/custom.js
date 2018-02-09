@@ -2,6 +2,40 @@
 (function ($) {
 
 
+	function callback(data){
+	console.log("preJson");
+	console.log(data);
+	
+	$("#description").append(data.map(function(d){
+
+		return $("<h6>").text(d.about.description);
+	}))
+	$("#subdescription").append(data.map(function(d){
+		return $("<h6>").text(d.about.subdescription);
+	}))
+	$("#workExperienceList").each(function(index, el) {
+		var ind = index+1;
+		var img = $("<img>").addClass('img-responsive').attr({
+			src: el.workExperience.image,
+			alt: 'img'
+		});
+		console.log(img);
+	});
+	/*.append(data.map(function(d){
+		var img = $("<img>").addClass('img-responsive').attr({
+			src: d.workExperience.image,
+			alt: 'img'
+		});
+		var role = $("<h3>").text(d.workExperience.role);
+		var description = $("<h4>").text(d.workExperience.description);
+		var dates = $("<p>").text(d.workExperience.dates);
+		return $("<div>").append(img).append(role).append(description).append(dates);
+	}))*/
+	}
+
+	$.getJSON("../data/data.json",callback);
+
+	
 	$(window).load(function(){
       $("#navigation").sticky({ topSpacing: 0 });
     });
