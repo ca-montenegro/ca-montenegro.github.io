@@ -4,16 +4,76 @@
 		"subdescription": "I have great interest in software and business architecture, projects oriented to IT and transactional systems."
 	},
 	"workExperience": [{
-			"role": "Undergraduate Research Assitant",
+			"role": "Undergraduate Research Assistant",
 			"description": "Working in a PhD project based on Business Process Simulating with Deep Learning",
 			"dates": "Feb/2017-Present",
 			"image": "img/graduated-logo.png"
 		},
 		{
-			"role": "Undergraduate Research Assitant",
+			"role": "Undergraduate Research Assistant",
 			"description": "Worked as assistant towards a PhD project that involves Tensor Flow, deep learning and repository data mining.",
 			"dates": "Aug/2017-Dec/2017",
 			"image": "img/graduated-logo.png"
+		},
+		{
+			"role": "Teaching Assistant",
+			"description": "Grade, give feedback and support to students in the following courses: Data Structures, Algorithms and Object-oriented programming and Intro to Systems Engineering.",
+			"dates": "Jan/2016-Dec/2017",
+			"image": "img/Teacher-male.ico"
+		},
+		{
+			"role":"ACM Member",
+			"description":"Member of the local ACM Chapter.",
+			"dates":"Aug/2015-Jan/2016",
+			"image":"img/acm_logo.png"
+		}
+	],
+	"skills":[
+		{
+			"name":"Java",
+			"level":5,
+			"image":"img/java-logo.png"
+		},
+		{
+			"name":"Python",
+			"level":3,
+			"image":"img/python-logo.png"
+		},
+		{
+			"name":"SQL",
+			"level":4,
+			"image":"img/sql-logo.png"
+		},
+		{
+			"name":"HTML5, JS, CSS",
+			"level":3,
+			"image":"img/html-css-js-logo.png"
+		}
+	],
+	"projects":[
+		{
+			"name":"Colmines",
+			"teamSize":5,
+			"description":"IoT application aimed at preventing health issues and increasing productivity in mines by monitoring different environmental variables and activating control systems as necessary.",
+			"technologies":"Python, Django, Auth0, Kafka, ZooKeeper, Mosquitto, Node-red, Cassandra, Arduino.",
+			"repository":"https://github.com/ca-montenegro/Grupo6",
+			"iconClass":"fa fa-cog fa-spin fa-2x fa-fw"
+		},
+		{
+			"name":"FestivAndes. Transactional System",
+			"teamSize":2,
+			"description":"Implemented the back-end of a transactional application that can handle the persistence and distributed access to large amounts of data from an event company.",
+			"technologies":"Oracle SQL, Java, WildFly, RabbitMQ, JMS",
+			"repository":"https://github.com/ca-montenegro/FestivAndes.-TransactionalSystem",
+			"iconClass":"fa fa-laptop fa-2x"
+		},
+		{
+			"name":"Habitaciones-FullStackApp",
+			"teamSize":5,
+			"description":"Carried out the software development life cycle to implement a fully functional RESTful web application that handles the operations of home rentals companies.",
+			"technologies":"JavaScript, Java, EJBs, Angular, JQuery, HTML, CSS, JaxRS, Maven, Jenkins.",
+			"repository":"https://github.com/ca-montenegro/Habitaciones-FullStackApp",
+			"iconClass":"fa fa-users fa-2x"
 		}
 	]
 }]
