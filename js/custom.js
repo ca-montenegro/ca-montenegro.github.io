@@ -4,33 +4,37 @@
 
 	function callback(data){
 	console.log("preJson");
-	console.log(data);
+	//console.log(data);
 	
 	$("#description").append(data.map(function(d){
-
 		return $("<h6>").text(d.about.description);
-	}))
+	}));
 	$("#subdescription").append(data.map(function(d){
 		return $("<h6>").text(d.about.subdescription);
-	}))
-	$("#workExperienceList").each(function(index, el) {
-		var ind = index+1;
-		var img = $("<img>").addClass('img-responsive').attr({
-			src: el.workExperience.image,
-			alt: 'img'
-		});
-		console.log(img);
-	});
-	/*.append(data.map(function(d){
-		var img = $("<img>").addClass('img-responsive').attr({
-			src: d.workExperience.image,
-			alt: 'img'
-		});
-		var role = $("<h3>").text(d.workExperience.role);
-		var description = $("<h4>").text(d.workExperience.description);
-		var dates = $("<p>").text(d.workExperience.dates);
-		return $("<div>").append(img).append(role).append(description).append(dates);
-	}))*/
+	}));
+	// console.log(data);
+	$("#workExpGallery").each(function(k,v){
+		console.log("key "+k+" val "+ data[0].workExperience[0].description );
+	})
+	// $("#workExperienceList").append(data.map(function(d){
+	// 	var dLength = d.workExperience.length;
+	// 	var i = 0;
+	// 	var retu = "";
+	// 	while(i<dLength){
+	// 	console.log();
+	// 	var img = $("<img>").addClass('img-responsive').attr({
+	// 		src: d.workExperience[i].image,
+	// 		alt: 'img'
+	// 	});
+	// 	var role = $("<h3>").text(d.workExperience[i].role);
+	// 	var description = $("<h4>").text(d.workExperience[i].description);
+	// 	var dates = $("<p>").text(d.workExperience[i].dates);
+	// 	i+=1;
+	// 	return(($("<div>").append(img).append(role).append(description).append(dates)));
+	// }
+	// console.log(retu);
+	// return retu;
+	// }))
 	}
 
 	$.getJSON("../data/data.json",callback);
