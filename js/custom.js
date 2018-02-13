@@ -69,7 +69,7 @@
         var mainDiv3 = $("<div>").addClass("service-box").append(mainDiv4).append(divService);
         var mainDiv2 = $("<div>").addClass("animated rotateInDownLeft").append(mainDiv3);
         var mainDiv = $("<div>").addClass("col-md-4").append(mainDiv2);
-        console.log(mainDiv);
+        $("#projectsList").append(mainDiv);
 
 	});
 	// $("#workExperienceList").append(data.map(function(d){
