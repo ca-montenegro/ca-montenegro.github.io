@@ -1,4 +1,5 @@
 /*global jQuery:false */
+"use strict";
 (function ($) {
 
 
@@ -17,15 +18,15 @@
 
 
 		var img = $("<img>").addClass("img-responsive").attr({
-	 		src: v.image,
-	 		alt: v.image
-	 	});
-	 	var tet = $("<p>").text(v.description);
-	 	var role = $("<h3>").text(v.role);
-	 	var date = $("<p>").text(v.dates);
-        var div = $("<div>").addClass("col-md-3").append(img).append(role)
-            .append(tet)
-            .append(date);
+			src: v.image,
+			alt: v.image
+		});
+		var tet = $("<p>").text(v.description);
+		var role = $("<h3>").text(v.role);
+		var date = $("<p>").text(v.dates);
+		var div = $("<div>").addClass("col-md-3").append(img).append(role)
+		.append(tet)
+		.append(date);
 		$("#workExperienceList").append(div);
 
 	});
@@ -38,38 +39,38 @@
 		var stars = function(){
 			var retu = $("<p>");
 			for(var i = 0; i<level; i++){
-			var li = $("<i>").addClass("fa fa-star fa-2x");
-			retu.append(li);
-		}
-		return retu;
+				var li = $("<i>").addClass("fa fa-star fa-2x");
+				retu.append(li);
+			}
+			return retu;
 		}
 		var div = $("<div>").addClass("col-md-3 animated fadeInUp")
-			.append(stars())
-			.append(img);
+		.append(stars())
+		.append(img);
 		$("#skillsList").append(div);
 	});
 	$.each(data[0].projects, function(k,v){
-        var fafa = $("<span>").addClass(v.iconClass);
+		var fafa = $("<span>").addClass(v.iconClass);
 		var h5 = $("<h5>").text(v.name);
-        var h5_2 = $("<h5>").text("Team size: " + v.teamSize);
+		var h5_2 = $("<h5>").text("Team size: " + v.teamSize);
 		var line = $("<div>").addClass("divider-header");
 		var descrip = $("<p>").text("Description: " + v.description);
-        var tech = $("<p>").text("Technologies: " + v.technologies);
-        var btn = $("<a>").addClass("btn btn-skin btn-lg btn-block").attr({
+		var tech = $("<p>").text("Technologies: " + v.technologies);
+		var btn = $("<a>").addClass("btn btn-skin btn-lg btn-block").attr({
 			href : v.repository,
 			target:"_blank"
 		}).text("Repository").append($("<i>").addClass("fa fa-github"));
-        var divService = $("<div>").addClass("service-desc").append(h5)
-			.append(line)
-			.append(h5_2)
-			.append(descrip)
-			.append(tech)
-			.append(btn);
-        var mainDiv4 = $("<div>").addClass("service-icon").append(fafa);
-        var mainDiv3 = $("<div>").addClass("service-box").append(mainDiv4).append(divService);
-        var mainDiv2 = $("<div>").addClass("animated rotateInDownLeft").append(mainDiv3);
-        var mainDiv = $("<div>").addClass("col-md-4").append(mainDiv2);
-        $("#projectsList").append(mainDiv);
+		var divService = $("<div>").addClass("service-desc").append(h5)
+		.append(line)
+		.append(h5_2)
+		.append(descrip)
+		.append(tech)
+		.append(btn);
+		var mainDiv4 = $("<div>").addClass("service-icon").append(fafa);
+		var mainDiv3 = $("<div>").addClass("service-box").append(mainDiv4).append(divService);
+		var mainDiv2 = $("<div>").addClass("animated rotateInDownLeft").append(mainDiv3);
+		var mainDiv = $("<div>").addClass("col-md-4").append(mainDiv2);
+		$("#projectsList").append(mainDiv);
 
 	});
 	// $("#workExperienceList").append(data.map(function(d){
@@ -163,4 +164,6 @@ $('ul.nav li.dropdown').hover(function() {
 		jQuery(".nav a[href='#" + id + "']").parent().addClass("active");					
 	});
 	
-})(jQuery);
+}
+)
+(jQuery);
