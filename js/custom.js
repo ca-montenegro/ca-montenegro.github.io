@@ -113,6 +113,11 @@
 /*Asincronic function to load json info into callback function*/
 $.getJSON("../data/data.json",callback);
 
+/*Automatic hide the navbar when click any section*/
+$('.navbar-nav>li>a').on('click', function() {
+	'use strict';
+	$('.navbar-collapse').collapse('hide');
+});
 
 $(window).load(function(){
 	$("#navigation").sticky({ topSpacing: 0 });
