@@ -80,7 +80,7 @@
 	"hobbies":[
 		{
 			"name":"Family",
-			"image":"./img/family.JPG",
+			"image":"./img/family.jpg",
 			"caption":"The most grateful thing in life for me is to spend some quality time in family."
 		},
 		{
@@ -90,7 +90,7 @@
 		},
 		{
 			"name":"Mountain Bike",
-			"image":"./img/bike.JPG",
+			"image":"./img/bike.jpg",
 			"caption":"Mountain Bike"
 		},
 		{
