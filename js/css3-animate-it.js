@@ -10,6 +10,9 @@
  * I also utilise the jQuery.doTimeout plugin for the data-sequence functionality so here is a link back to them.
  * http://benalman.com/projects/jquery-dotimeout-plugin/
  */
+
+/* global $ */
+/*global jQuery:true */
 (function($) {
   var selectors = [];
 
