@@ -1,7 +1,8 @@
 [{
 	"about": {
-		"description": "Hi, I am 20 years old. I live with my family in Bogotá, Colombia. I´m currently pursuing a BS degree in Computer Science at University of Los Andes.",
-		"subdescription": "I have great interest in software and business architecture, projects oriented to IT and transactional systems."
+		"description": "Hi, I am 20 years old System and Computing Engineer student with additional studies in Enterprise Management and Germany Language and Culture. I live in Bogotá, Colombia and study at University of Los Andes, here I am coursing my third academic year and I expect to graduate in 2020.",
+		"subdescription": "Now days, I have great interest in Machine Learning, mainly in Deep Learning projects. Also interested in business architecture, projects oriented to IT and transactional systems.",
+		"subsubdescription":"I recognize my self as a person that love to learn every aspect of life, from any kind of history to my professional career subjects. I really like to make sport all time, mostly Squash. I make part of the National Squash Federation and my university Squash Team."
 	},
 	"workExperience": [{
 			"role": "Undergraduate Research Assistant",
@@ -75,5 +76,33 @@
 			"repository":"https://github.com/ca-montenegro/Habitaciones-FullStackApp",
 			"iconClass":"fa fa-users fa-2x"
 		}
+	],
+	"hobbies":[
+		{
+			"name":"Family",
+			"image":"./img/family.JPG",
+			"caption":"The most grateful thing in life for me is to spend some quality time in family."
+		},
+		{
+			"name":"Squash",
+			"image":"./img/squash.jpg",
+			"caption":"Love play squash all time. "
+		},
+		{
+			"name":"Mountain Bike",
+			"image":"./img/bike.JPG",
+			"caption":"Mountain Bike"
+		},
+		{
+			"name":"Apple",
+			"image":"./img/apple.jpg",
+			"caption":"I am a hugh fan of Apple Company."
+		},
+		{
+			"name":"Dream Germany",
+			"image":"./img/germany.jpg",
+			"caption":"Mein Großer Traum ist Deutschland besuche."
+		}
+
 	]
 }]

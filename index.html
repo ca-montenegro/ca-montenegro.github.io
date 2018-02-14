@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Camilo Montenegro WebPage">
+	<meta name="description" content="Camilo Montenegro Hernández CV WebPage">
 	<meta name="author" content="Camilo Montenegro">
 	<title>Camilo Andrés Montenegro Hernández</title>
 	<!-- css -->
@@ -15,6 +15,7 @@
 	<link href="css/animations.css" rel="stylesheet" />
 	<link href="css/style.css" rel="stylesheet">
 	<link href="color/default.css" rel="stylesheet">
+	<!-- /css -->
 
 </head>
 <!-- data-spy: automatic updates nav bar according to page position. data-target: connection with the navbar, class=navbar-custom-->
@@ -68,6 +69,7 @@
 							<li><a href="#workExperience">Work Experience</a></li>
 							<li><a href="#technicalSkills">Technical Skills</a></li>
 							<li><a href="#projects">Projects</a></li>
+							<li><a href="#hobbies">Hobbies</a></li>
 							<li><a href="#contact">Contact</a></li>
 						</ul>
 					</div>
@@ -110,14 +112,23 @@
 				<div  id="subdescription">
 					<!-- filled with jquery json-->
 				</div >
-				<a href="#contact" class="btn btn-skin btn-scroll">Want to know more, continue reading and contact me</a>
+				<div id="subsubdescription">
+					<!-- filled with jquery json-->
+				</div>
+				<img src="./img/park.jpg" alt="Yosemite Park Image" style="height: 450px; width: 450px; border-radius: 50%">
+				<div>
+					<h8>This and the home photo is Yosemite National Park, is the most beautiful and relaxing place I know.
+						<br/></h8>
+					<h8>If you want to know more about this amazing park go to this page: <a href="http://www.escapingabroad.com/blog/yosemite-national-park-photos/" target="_blank"> Yosemite</a></h8>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
 <!-- /Section: about -->
 
-<section id="workExperience" class="home-section color-dark text-center bg-white">
+<!-- Section: work experience -->
+<section id="workExperience" class="home-section color-dark bg-gray text-center">
 	<div class="container marginbot-50">
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2">
@@ -140,7 +151,7 @@
 			<div class="col-sm-12 col-md-12 col-lg-12" >
 
 				<div class="row gallery-item container" id ="workExperienceList">
-
+					<!-- filled with jquery json-->
 				</div>
 
 			</div>
@@ -151,11 +162,11 @@
 	</div>
 
 </section>
-<!-- Section: work experience -->
+
 
 <!-- /Section: work experience -->
 
-<!-- /Section: Technical Skills -->
+<!-- Section: Technical Skills -->
 <section id="technicalSkills" class="home-section color-dark text-center bg-white">
 	<div class="container marginbot-50">
 		<div class="row">
@@ -179,7 +190,7 @@
 			<div class="col-sm-12 col-md-12 col-lg-12" >
 
 				<div class="row gallery-item" id="skillsList">
-				<!--Insert jQuery-->
+				<!--fill with jQuery-->
 				</div>
 
 			</div>
@@ -189,8 +200,46 @@
 </section>
 <!-- /Section: technical Skills -->
 
+<!-- Section: Languages -->
+<section id="languages" class="home-section nopadd-bot color-dark bg-gray text-center">
+	<div class="container marginbot-50">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				<div class="animatedParent">
+					<div class="section-heading text-center">
+						<h2 class="h-bold animated bounceInDown">Speaking Languages Proficiency</h2>
+						<div class="divider-header"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="container">
+
+		<div class="row marginbot-80">
+			<div class="col-md-8 col-md-offset-2">
+				<p>Spanish</p>
+				<div class="containerSkills">
+					<div class="skills spanish">100%</div>
+				</div>
+				<p>English</p>
+				<div class="containerSkills">
+					<div class="skills english">80%</div>
+				</div>
+				<p>German</p>
+				<div class="containerSkills">
+					<div class="skills german">20%</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- /Section: contact -->
+
 <!-- Section: projects -->
-<section id="projects" class="home-section color-dark bg-gray">
+<section id="projects" class="home-section color-dark bg-white">
 	<div class="container marginbot-50">
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2">
@@ -218,26 +267,22 @@
 
 <!-- /Section: projects -->
 <!--Section: hobbies-->
-<section class="home-section color-dark text-center bg-white" id = "hobbies">
-<div class="container marginbot-50">
+<section class="home-section color-dark text-center bg-gray" id = "hobbies">
+<div class="container marginbot-50" >
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2">
 			<div class="section-heading text-center">
-				<h2 class="h-bold">Hobbies</h2>
+				<h2 class="h-bold">Hobbies and Passions </h2>
 				<div class="divider-header">	</div>
 			</div>
 		</div>
 	</div>
 	<div class="text-center">
 		<div class="container">
-			<div class="slideshow-container" >
-				<!--fill with jquery-->
-				<div id = "hobbiesList">
-				<div class="mySlides fade">
-					<div class="numbertext">1/3</div>
-					<img src="img1.jpg" style = "width :100%" alt="">
-					<div class="text">Caption text</div>
-				</div>
+			<div class="slideshow-containers " >
+
+				<div id = "hobbiesList" >
+					<!--fill with jquery-->
 				</div>
 				<!-- Next and previous buttons-->
 				<a onclick = "plusSlides(-1)"class="prev">&#10094;</a>
@@ -247,14 +292,17 @@
 				<span class="dot" onclick="currentSlide(1)"></span>
 				<span class="dot" onclick="currentSlide(2)"></span>
 				<span class="dot" onclick="currentSlide(3)"></span>
+				<span class="dot" onclick="currentSlide(4)"></span>
+				<span class="dot" onclick="currentSlide(5)"></span>
+
 			</div>
 		</div>
 	</div>
 </div>
 </section>
-
+<!--/Section:Hobbies-->
 <!-- Section: contact -->
-<section id="contact" class="home-section nopadd-bot color-dark bg-gray text-center">
+<section id="contact" class="home-section nopadd-bot color-dark bg-white text-center">
 	<div class="container marginbot-50">
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2">
@@ -275,26 +323,20 @@
 			<div class="col-md-8 col-md-offset-2">
 				<div class="col-md-4 text-center">
 					<a  class="btn-gray" href="mailto:ca.montenegro@uniandes.edu.co?">
-											<span class="fa-stack fa-4x">
-												<i class="fa fa-square-o fa-stack-2x"></i>
-												<i class="fa fa-envelope fa-stack-1x"></i>
-											</span>
+						<span class="fa-stack fa-4x"><i class="fa fa-square-o fa-stack-2x"></i>
+												<i class="fa fa-envelope fa-stack-1x"></i></span>
 					</a>
 				</div>
 				<div class="col-md-4 text-center">
 					<a  class="btn-gray" href="https://www.linkedin.com/in/montenegro456/" target="none">
-											<span class="fa-stack fa-4x">
-												<i class="fa fa-square-o fa-stack-2x"></i>
-												<i class="fa fa-linkedin fa-stack-1x"></i>
-											</span>
+						<span class="fa-stack fa-4x"><i class="fa fa-square-o fa-stack-2x"></i>
+												<i class="fa fa-linkedin fa-stack-1x"></i></span>
 					</a>
 				</div>
 				<div class="col-md-4 text-center">
 					<a  class="btn-gray" href="https://github.com/ca-montenegro" target="none">
-											<span class="fa-stack fa-4x">
-												<i class="fa fa-square-o fa-stack-2x"></i>
-												<i class="fa fa-github fa-stack-1x"></i>
-											</span>
+						<span class="fa-stack fa-4x"><i class="fa fa-square-o fa-stack-2x"></i>
+												<i class="fa fa-github fa-stack-1x"></i></span>
 					</a>
 				</div>
 			</div>
@@ -331,6 +373,7 @@
 
 <script src="js/custom.js"></script>
 <script src="js/css3-animate-it.js"></script>
+<!-- Core JavaScript Files -->
 
 </body>
 

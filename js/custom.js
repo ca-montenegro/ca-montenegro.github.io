@@ -1,19 +1,22 @@
 /*global jQuery:false */
-"use strict";
 (function ($) {
 
-
+	"use strict";
+	/*Function that load html content based on json info*/
 	function callback(data){
-		console.log("preJson");
-	//console.log(data);
-	
+
+		/*Section about, load basic description*/
 	$("#description").append(data.map(function(d){
-		return $("<h6>").text(d.about.description);
+		return $("<h7>").text(d.about.description);
 	}));
 	$("#subdescription").append(data.map(function(d){
-		return $("<h6>").text(d.about.subdescription);
+		return $("<h8>").text(d.about.subdescription);
 	}));
-	// console.log(data);
+	$("#subsubdescription").append(data.map(function(d){
+		return $("<h9>").text(d.about.subsubdescription);
+	}));
+
+	/* Section: Work Experience, load the info from json with each jQuery function*/
 	$.each(data[0].workExperience, function (k,v) {
 
 
@@ -30,6 +33,7 @@
 		$("#workExperienceList").append(div);
 
 	});
+        /* Section: Skills, load the info from json with each jQuery function*/
 	$.each(data[0].skills, function(k,v){
 		var img = $("<img>").addClass("img-responsive").attr({
 			src:v.image,
@@ -49,6 +53,7 @@
 		.append(img);
 		$("#skillsList").append(div);
 	});
+        /* Section: Projects, load the info from json with each jQuery function*/
 	$.each(data[0].projects, function(k,v){
 		var fafa = $("<span>").addClass(v.iconClass);
 		var h5 = $("<h5>").text(v.name);
@@ -73,27 +78,39 @@
 		$("#projectsList").append(mainDiv);
 
 	});
-	// $("#workExperienceList").append(data.map(function(d){
-	// 	var dLength = d.workExperience.length;
-	// 	var i = 0;
-	// 	var retu = "";
-	// 	while(i<dLength){
-	// 	console.log();
-	// 	var img = $("<img>").addClass('img-responsive').attr({
-	// 		src: d.workExperience[i].image,
-	// 		alt: 'img'
-	// 	});
-	// 	var role = $("<h3>").text(d.workExperience[i].role);
-	// 	var description = $("<h4>").text(d.workExperience[i].description);
-	// 	var dates = $("<p>").text(d.workExperience[i].dates);
-	// 	i+=1;
-	// 	return(($("<div>").append(img).append(role).append(description).append(dates)));
-	// }
-	// console.log(retu);
-	// return retu;
-	// }))
+
+        /* Section: Hobbies load the info from json with each jQuery function*/
+	$.each(data[0].hobbies, function(k,v){
+		var img = $("<img>").attr({
+			src:v.image,
+			style:"width:100%",
+			alt: v.name
+		})
+		var indice = k+1+"/5";
+		var subdiv = $("<div>").addClass("numbertext").text(indice);
+		var mainDiv="";
+		if(k===0)
+			mainDiv = $("<div>").addClass("mySlides fades")
+				.attr({style:"display:block;"})
+				.append(subdiv)
+				.append(img)
+				.append($("<div>")
+					.addClass("text")
+					.text(v.caption));
+		else
+            mainDiv = $("<div>").addClass("mySlides fades")
+				.append(subdiv).append(img)
+				.append($("<div>")
+					.addClass("text")
+					.text(v.caption));
+		$("#hobbiesList").append(mainDiv).attr({
+			style:"max-height:70% max-width:70%"
+		})
+
+	})
 }
 
+/*Asincronic function to load json info into callback function*/
 $.getJSON("../data/data.json",callback);
 
 
