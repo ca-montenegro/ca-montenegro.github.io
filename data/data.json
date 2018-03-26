@@ -1,57 +1,73 @@
 [{
 	"about": {
-		"description": "Hi, I am 20 years old System and Computing Engineer student with additional studies in Enterprise Management and Germany Language and Culture. I live in Bogotá, Colombia and study at University of Los Andes, here I am coursing my third academic year and I expect to graduate in 2020.",
+		"description": "Hi, I am 20 years old System and Computing Engineer student with additional studies in Enterprise Management and Germany Language and Culture. I live in Bogotá, Colombia and study at University of Los Andes, here I am coursing my third academic year and I expect to graduate in 2019.",
 		"subdescription": "Now days, I have great interest in Machine Learning, mainly in Deep Learning projects. Also interested in business architecture, projects oriented to IT and transactional systems.",
 		"subsubdescription":"I recognize my self as a person that love to learn every aspect of life, from any kind of history to my professional career subjects. I really like to make sport all time, mostly Squash. I make part of the National Squash Federation and my university Squash Team."
 	},
 	"workExperience": [{
 			"role": "Undergraduate Research Assistant",
-			"description": "Working in a PhD project based on Business Process Simulating with Deep Learning",
+			"description": "Working as software developer in Businesses Process Simulation with Deep Learning. PhD project.",
 			"dates": "Feb/2017-Present",
-			"image": "img/graduated-logo.png"
+			"image": "img/graduated-logo.png",
+			"descrp": "Undergraduate Research Assistant Image"
 		},
 		{
 			"role": "Undergraduate Research Assistant",
 			"description": "Worked as assistant towards a PhD project that involves Tensor Flow, deep learning and repository data mining.",
 			"dates": "Aug/2017-Dec/2017",
-			"image": "img/graduated-logo.png"
+			"image": "img/graduated-logo.png",
+			"descrp": "Undergraduate Research Assistant Image"
 		},
 		{
 			"role": "Teaching Assistant",
 			"description": "Grade, give feedback and support to students in the following courses: Data Structures, Algorithms and Object-oriented programming and Intro to Systems Engineering.",
 			"dates": "Jan/2016-Dec/2017",
-			"image": "img/Teacher-male.ico"
+			"image": "img/Teacher-male.ico",
+			"descrp": "Undergraduate Teaching Assistant Image"
 		},
 		{
 			"role":"ACM Member",
 			"description":"Member of the local ACM Chapter.",
 			"dates":"Aug/2015-Jan/2016",
-			"image":"img/acm_logo.png"
+			"image":"img/acm_logo.png",
+			"descrp": "ACM Logo"
 		}
 	],
 	"skills":[
 		{
 			"name":"Java",
 			"level":5,
-			"image":"img/java-logo.png"
-		},
-		{
-			"name":"Python",
-			"level":3,
-			"image":"img/python-logo.png"
+			"image":"img/java-logo.png",
+			"descrp":"Java Logo"
 		},
 		{
 			"name":"SQL",
 			"level":4,
-			"image":"img/sql-logo.png"
+			"image":"img/sql-logo.png",
+			"descrp":"SQL Logo"
 		},
 		{
-			"name":"HTML5, JS, CSS",
+			"name":"Python",
 			"level":3,
-			"image":"img/html-css-js-logo.png"
+			"image":"img/python-logo.png",
+			"descrp":"Python Logo"
+		},
+		{
+			"name":"React",
+			"level":3,
+			"image":"img/react.png",
+			"descrp":"React Logo"
 		}
 	],
 	"projects":[
+		{
+			"name":"BikeLab",
+			"teamSize":2,
+			"description":"Online Marketplace for Bike Lovers. Web project for CS Wed Development 2018.",
+			"technologies":"React JS, Mongo DB, Node JS, Heroku, HTML, CSS",
+			"repository":"https://github.com/ca-montenegro/bikelab",
+			"iconClass":"fa fa-bicycle fa-2x fa-fw"
+		},
 		{
 			"name":"Colmines",
 			"teamSize":5,
@@ -101,7 +117,7 @@
 		{
 			"name":"Dream Germany",
 			"image":"./img/germany.jpg",
-			"caption":"Mein Großer Traum ist Deutschland besuche."
+			"caption":"I hope to live in Germany"
 		}
 
 	]

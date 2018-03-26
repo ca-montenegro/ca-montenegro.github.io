@@ -13,7 +13,7 @@
 		return $("<h8>").text(d.about.subdescription);
 	}));
 	$("#subsubdescription").append(data.map(function(d){
-		return $("<h9>").text(d.about.subsubdescription);
+		return $("<h8>").text(d.about.subsubdescription);
 	}));
 
 	/* Section: Work Experience, load the info from json with each jQuery function*/
@@ -22,7 +22,7 @@
 
 		var img = $("<img>").addClass("img-responsive").attr({
 			src: v.image,
-			alt: v.image
+			alt: v.descrp
 		});
 		var tet = $("<p>").text(v.description);
 		var role = $("<h3>").text(v.role);
@@ -74,7 +74,7 @@
 		var mainDiv4 = $("<div>").addClass("service-icon").append(fafa);
 		var mainDiv3 = $("<div>").addClass("service-box").append(mainDiv4).append(divService);
 		var mainDiv2 = $("<div>").addClass("animated rotateInDownLeft").append(mainDiv3);
-		var mainDiv = $("<div>").addClass("col-md-4").append(mainDiv2);
+		var mainDiv = $("<div>").addClass("col-md-3").append(mainDiv2);
 		$("#projectsList").append(mainDiv);
 
 	});
