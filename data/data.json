@@ -1,7 +1,7 @@
 [{
 	"about": {
-		"description": "Hi, I am 20 years old System and Computing Engineer student with additional studies in Enterprise Management and Germany Language and Culture. I live in Bogotá, Colombia and study at University of Los Andes, here I am coursing my third academic year and I expect to graduate in 2019.",
-		"subdescription": "Now days, I have great interest in Machine Learning, mainly in Deep Learning projects. Also interested in business architecture, projects oriented to IT and transactional systems.",
+		"description": "Hi, I am 20 years old System and Computing Engineer student with additional studies in Enterprise Management and Germany Language and Culture. I live in Bogotá, Colombia and study at University of Los Andes, here I am coursing my third academic year and I expect to graduate in 2019. For more academic information check my Linkedin profile",
+		"subdescription": "Now days, I have great interest in emerging technologies like Machine Learning, mainly in Deep Learning and blockchain. Also interested in business architecture and governance, projects oriented to IT and transactional systems.",
 		"subsubdescription":"I recognize my self as a person that love to learn every aspect of life, from any kind of history to my professional career subjects. I really like to make sport all time, mostly Squash. I make part of the National Squash Federation and my university Squash Team."
 	},
 	"workExperience": [{
@@ -19,19 +19,34 @@
 			"descrp": "Undergraduate Research Assistant Image"
 		},
 		{
+			"role": "Machine Learning",
+			"description": "ML Techniques, Performance and Applicability. International Summer School",
+			"dates": "Jun/2018-Jul/2018",
+			"image": "img/MLCS.png",
+			"descrp": "ML Course Icon"
+		},
+		{
+			"role":"Deep Learning Specialization",
+			"description":"Coursera Deep Learning Specialization. Foundations of DL: NN, DNN, Hyperparameters, Optimization, CNN, Sequence Models ",
+			"dates":"Jan/2018 - Present",
+			"image":"img/DL.png",
+			"descrp": "Deep Learning Logo"
+		},
+		{
+			"role":"IBM Blockchain Essentials",
+			"description":"Blockchain principles and practices and how they can be applied within a business environment. Distributed ledger systems, how assets can be transferred in a Blockchain network. ",
+			"dates":"Sep/2017",
+			"image":"img/IBMBlockchain.png",
+			"descrp": "IBM Blockchain Logo"
+		},
+		{
 			"role": "Teaching Assistant",
-			"description": "Grade, give feedback and support to students in the following courses: Data Structures, Algorithms and Object-oriented programming and Intro to Systems Engineering.",
+			"description": "Grade, give feedback and support to students in the following courses: Business Processes Governance, Data Structures, Algorithms and Object-oriented programming and Intro to Systems Engineering.",
 			"dates": "Jan/2016-Dec/2017",
 			"image": "img/Teacher-male.ico",
 			"descrp": "Undergraduate Teaching Assistant Image"
-		},
-		{
-			"role":"ACM Member",
-			"description":"Member of the local ACM Chapter.",
-			"dates":"Aug/2015-Jan/2016",
-			"image":"img/acm_logo.png",
-			"descrp": "ACM Logo"
 		}
+
 	],
 	"skills":[
 		{
@@ -57,16 +72,44 @@
 			"level":3,
 			"image":"img/react.png",
 			"descrp":"React Logo"
+		},
+		{
+			"name":"Machine Learning",
+			"level":3,
+			"image":"img/MachineLearning.png",
+			"descrp":"ML Logo"
+		},
+		{
+			"name":"Business Process Management",
+			"level":3,
+			"image":"img/bpm.png",
+			"descrp":"bpm Logo"
 		}
 	],
 	"projects":[
 		{
+			"name":"Event - Organizer",
+			"teamSize":2,
+			"description":"Web Application aimed at facilitating the planning process of any kind of event. With the app you can share your events, include all the necessary items in a checklist, make comments, and more.",
+			"technologies":"JavaScript, Meteor, React, Mongo",
+			"repository":"https://github.com/ca-montenegro/event-organizer",
+			"iconClass":"fas fa-calendar-alt fa-2x fa-fw"
+		},
+		{
 			"name":"BikeLab",
 			"teamSize":2,
-			"description":"Online Marketplace for Bike Lovers. Web project for CS Wed Development 2018.",
+			"description":"Online Marketplace for Bike Lovers. Project for CS Web Development 2018.",
 			"technologies":"React JS, Mongo DB, Node JS, Heroku, HTML, CSS",
 			"repository":"https://github.com/ca-montenegro/bikelab",
 			"iconClass":"fa fa-bicycle fa-2x fa-fw"
+		},
+		{
+			"name":"Digit Recognizer",
+			"teamSize":1,
+			"description":"Application aimed to explain Tensorflow js, canvas and D3. MNIST Digit recognizer app. This app was made with educational purpose and for entertain. Tutorial Video in the repo.",
+			"technologies":"TensorFlowJs, React JS, D3",
+			"repository":"https://github.com/ca-montenegro/DigitRecognizer",
+			"iconClass":"fas fa-signal fa-2x fa-fw"
 		},
 		{
 			"name":"Colmines",
@@ -83,14 +126,6 @@
 			"technologies":"Oracle SQL, Java, WildFly, RabbitMQ, JMS",
 			"repository":"https://github.com/ca-montenegro/FestivAndes.-TransactionalSystem",
 			"iconClass":"fa fa-laptop fa-2x"
-		},
-		{
-			"name":"Habitaciones-FullStackApp",
-			"teamSize":5,
-			"description":"Carried out the software development life cycle to implement a fully functional RESTful web application that handles the operations of home rentals companies.",
-			"technologies":"JavaScript, Java, EJBs, Angular, JQuery, HTML, CSS, JaxRS, Maven, Jenkins.",
-			"repository":"https://github.com/ca-montenegro/Habitaciones-FullStackApp",
-			"iconClass":"fa fa-users fa-2x"
 		}
 	],
 	"hobbies":[
@@ -110,15 +145,14 @@
 			"caption":"Mountain Bike"
 		},
 		{
+			"name":"Watch Lover",
+			"image":"./img/clocks.jpg",
+			"caption":"Watch Lover"
+		},
+		{
 			"name":"Apple",
 			"image":"./img/apple.jpg",
 			"caption":"I am a hugh fan of Apple Company."
-		},
-		{
-			"name":"Dream Germany",
-			"image":"./img/germany.jpg",
-			"caption":"I hope to live in Germany"
 		}
-
 	]
 }]
