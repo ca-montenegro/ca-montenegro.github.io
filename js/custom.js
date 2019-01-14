@@ -22,12 +22,13 @@
 
 		var img = $("<img>").addClass("img-responsive").attr({
 			src: v.image,
-			alt: v.descrp
+			alt: v.descrp,
+			align:"center"
 		});
 		var tet = $("<p>").text(v.description);
 		var role = $("<h3>").text(v.role);
 		var date = $("<p>").text(v.dates);
-		var div = $("<div>").addClass("col-md-3").append(img).append(role)
+		var div = $("<div>").addClass("col-md-4").append(img).append(role)
 		.append(tet)
 		.append(date);
 		$("#workExperienceList").append(div);
@@ -64,7 +65,7 @@
 		var btn = $("<a>").addClass("btn btn-skin btn-lg btn-block").attr({
 			href : v.repository,
 			target:"_blank"
-		}).text("Repository").append($("<i>").addClass("fa fa-github"));
+		}).text("Repository").append($("<i>").addClass("fab fa-github"));
 		var divService = $("<div>").addClass("service-desc").append(h5)
 		.append(line)
 		.append(h5_2)
@@ -74,7 +75,7 @@
 		var mainDiv4 = $("<div>").addClass("service-icon").append(fafa);
 		var mainDiv3 = $("<div>").addClass("service-box").append(mainDiv4).append(divService);
 		var mainDiv2 = $("<div>").addClass("animated rotateInDownLeft").append(mainDiv3);
-		var mainDiv = $("<div>").addClass("col-md-3").append(mainDiv2);
+		var mainDiv = $("<div>").addClass("col-md-4").append(mainDiv2);
 		$("#projectsList").append(mainDiv);
 
 	});

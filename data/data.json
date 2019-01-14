@@ -1,13 +1,13 @@
 [{
 	"about": {
-		"description": "Hi, I am 20 years old System and Computing Engineer student with additional studies in Enterprise Management and Germany Language and Culture. I live in Bogotá, Colombia and study at University of Los Andes, here I am coursing my third academic year and I expect to graduate in 2019. For more academic information check my Linkedin profile",
-		"subdescription": "Now days, I have great interest in emerging technologies like Machine Learning, mainly in Deep Learning and blockchain. Also interested in business architecture and governance, projects oriented to IT and transactional systems.",
-		"subsubdescription":"I recognize my self as a person that love to learn every aspect of life, from any kind of history to my professional career subjects. I really like to make sport all time, mostly Squash. I make part of the National Squash Federation and my university Squash Team."
+		"description": "I’m a 21-year old system and computing engineer with knowledge in enterprise management. I’m mainly interested in data science, deep learning and blockchain. Live in Bogotá, Colombia and study at Universidad de Los Andes, here I am coursing my fourth academic year and I expect to graduate in 2019. Love my family, coding, coffee and sports. I also make part of the university Squash Team and have been training for more than 10 years. For more academic information check my Linkedin profile.",
+		"subdescription": "",
+		"subsubdescription":""
 	},
 	"workExperience": [{
 			"role": "Undergraduate Research Assistant",
-			"description": "Working as software developer in Businesses Process Simulation with Deep Learning. PhD project.",
-			"dates": "Feb/2017-Present",
+			"description": "Worked as software developer in business process simulation with Deep Learning. PhD project. Code LSTM/RNN algorithm that learn and predict inter-arrival times based on business process log.",
+			"dates": "Feb/2017-Dec/2018",
 			"image": "img/graduated-logo.png",
 			"descrp": "Undergraduate Research Assistant Image"
 		},
@@ -20,7 +20,7 @@
 		},
 		{
 			"role": "Machine Learning",
-			"description": "ML Techniques, Performance and Applicability. International Summer School",
+			"description": "ML Techniques, Performance and Applicability course. International Summer School",
 			"dates": "Jun/2018-Jul/2018",
 			"image": "img/MLCS.png",
 			"descrp": "ML Course Icon"
@@ -34,14 +34,14 @@
 		},
 		{
 			"role":"IBM Blockchain Essentials",
-			"description":"Blockchain principles and practices and how they can be applied within a business environment. Distributed ledger systems, how assets can be transferred in a Blockchain network. ",
+			"description":"Blockchain principles and practices and how they can be applied within a business environment. Distributed ledger systems, how assets can be transferred in a Blockchain network.",
 			"dates":"Sep/2017",
 			"image":"img/IBMBlockchain.png",
 			"descrp": "IBM Blockchain Logo"
 		},
 		{
 			"role": "Teaching Assistant",
-			"description": "Grade, give feedback and support to students in the following courses: Business Processes Governance, Data Structures, Algorithms and Object-oriented programming and Intro to Systems Engineering.",
+			"description": "Develop workshops, grade, give feedback and support to students in the following courses: Business Processes Governance, Data Structures, Algorithms and Object-oriented programming and Intro to Systems Engineering.",
 			"dates": "Jan/2016-Dec/2017",
 			"image": "img/Teacher-male.ico",
 			"descrp": "Undergraduate Teaching Assistant Image"
@@ -88,6 +88,22 @@
 	],
 	"projects":[
 		{
+			"name":"Easy Bus",
+			"teamSize":4,
+			"description":"Mobile Application for iOS and Android with Analytics Engine. Developed using Design Thinking. Help citizen to plan, manage and follow their trip in real time using public transport, taxi and Uber.",
+			"technologies":"SWIFT, AndroidStudio, Firebase, ReactJS, Meteor.",
+			"repository":"https://goo.gl/dCf5gz",
+			"iconClass":"fas fa-bus-alt fa-2x fa-fw"
+		},
+		{
+			"name":"Activity Wall",
+			"teamSize":2,
+			"description":"Easy to use application that provides a customizable wall to follow events on twitter and instagram. The application also provides visualizations than enable the analysis of user interactions.",
+			"technologies":"JavaScript, React Js, Meteor, Mongo DB, D3, HTML+CSS",
+			"repository":"https://github.com/cpenalozag/activity-wall",
+			"iconClass":"fas fa-users fa-2x fa-fw"
+		},
+		{
 			"name":"Event - Organizer",
 			"teamSize":2,
 			"description":"Web Application aimed at facilitating the planning process of any kind of event. With the app you can share your events, include all the necessary items in a checklist, make comments, and more.",
@@ -118,14 +134,6 @@
 			"technologies":"Python, Django, Auth0, Kafka, ZooKeeper, Mosquitto, Node-red, Cassandra, Arduino.",
 			"repository":"https://github.com/ca-montenegro/Grupo6",
 			"iconClass":"fa fa-cog fa-spin fa-2x fa-fw"
-		},
-		{
-			"name":"FestivAndes. Transactional System",
-			"teamSize":2,
-			"description":"Implemented the back-end of a transactional application that can handle the persistence and distributed access to large amounts of data from an event company.",
-			"technologies":"Oracle SQL, Java, WildFly, RabbitMQ, JMS",
-			"repository":"https://github.com/ca-montenegro/FestivAndes.-TransactionalSystem",
-			"iconClass":"fa fa-laptop fa-2x"
 		}
 	],
 	"hobbies":[
