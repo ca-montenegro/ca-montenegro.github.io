@@ -87,7 +87,7 @@
 			style:"width:100%",
 			alt: v.name
 		})
-		var indice = k+1+"/5";
+		var indice = k+1+"/3";
 		var subdiv = $("<div>").addClass("numbertext").text(indice);
 		var mainDiv="";
 		if(k===0)

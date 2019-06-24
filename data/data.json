@@ -1,19 +1,19 @@
 [{
 	"about": {
-		"description": "I’m a 21-year old systems and computing engineer (Computer Science) with knowledge in enterprise management, enthusiastic with data science, deep learning and blockchain. Currently I'm living in Eindhoven, Netherlands but I'm a Colombian guy so I really enjoy learning new things, the good food, family & friends, travel and having fun. Love my family, coding, coffee and sports. I also make part of the university Squash Team and have been training for more than 10 years. If you liked what you have read so far, don't hesitate in reading this awesome page, my linkedIn profile and contact me.",
+		"description": "I’m a 21-year old systems and computing engineer (Computer Science) with knowledge in enterprise management, enthusiastic with deep learning and data science. Currently living in Eindhoven, Netherlands but I'm a Colombian guy who really enjoy learning new things, the good food, family & friends, travel and having fun. Love my family, coding, coffee and sports. I also make part of the university Squash Team and have been training for more than 10 years. If you liked what you have read so far, don't hesitate in reading this awesome page, my linkedIn profile and contact me as well.",
 		"subdescription": "",
 		"subsubdescription":""
 	},
 	"workExperience": [{
 			"role": "Eindhoven, Netherlands",
-			"description": "Courses in the Master of Computer Science & Mathematics. QS Ranking: 99",
+			"description": "Minor in the Master of Computer Science & Mathematics. Data Science track. QS Ranking: 102",
 			"dates": "Feb/2018-Present",
 			"image": "img/TU-e-logo.png",
 			"descrp": "Eindhoven University of Technology"
 		},
 		{
 			"role": "Bogotá D.C, Colombia",
-			"description": "BSc. Systems & Computing Engineering (Computer Science). QS Ranking: 272",
+			"description": "BSc. Systems & Computing Engineering (Computer Science). QS Ranking: 234",
 			"dates": "Aug/2015-Dec/2019",
 			"image": "img/uniandes.png",
 			"descrp": "Universidad de los Andes Image"
@@ -65,21 +65,21 @@
 	"skills":[
 		{
 			"name":"Java",
-			"level":5,
+			"level":4,
 			"image":"img/java-logo.png",
 			"descrp":"Java Logo"
-		},
-		{
-			"name":"SQL",
-			"level":4,
-			"image":"img/sql-logo.png",
-			"descrp":"SQL Logo"
 		},
 		{
 			"name":"Python",
 			"level":3,
 			"image":"img/python-logo.png",
 			"descrp":"Python Logo"
+		},
+		{
+			"name":"SQL",
+			"level":4,
+			"image":"img/sql-logo.png",
+			"descrp":"SQL Logo"
 		},
 		{
 			"name":"React",
@@ -101,6 +101,14 @@
 		}
 	],
 	"projects":[
+		{
+			"name":"Deep Learning Projects",
+			"teamSize":3,
+			"description":"Models for high dimensional data such as natural text, images, and audio. Centered in the study of how to use these models and representations in classification, retrieval, and recommendations.",
+			"technologies":"Python, Keras Framework",
+			"repository":"https://github.com/ca-montenegro/Recommender-Systems-DeepLearning",
+			"iconClass":"fas fa-brain fa-2x fa-fw"
+		},
 		{
 			"name":"Easy Bus",
 			"teamSize":4,
@@ -154,27 +162,17 @@
 		{
 			"name":"Family",
 			"image":"./img/family.jpg",
-			"caption":"The most grateful thing in life for me is to spend some quality time in family."
+			"caption":"The most grateful thing in life is to spend quality time in family."
 		},
 		{
 			"name":"Squash",
 			"image":"./img/squash.jpg",
-			"caption":"Love play squash all time. "
+			"caption":"Squash Player. "
 		},
 		{
 			"name":"Mountain Bike",
 			"image":"./img/bike.jpg",
-			"caption":"Mountain Bike"
-		},
-		{
-			"name":"Watch Lover",
-			"image":"./img/clocks.jpg",
-			"caption":"Watch Lover"
-		},
-		{
-			"name":"Apple",
-			"image":"./img/apple.jpg",
-			"caption":"I am a hugh fan of Apple Company."
+			"caption":"Mountain Biker"
 		}
 	]
 }]
