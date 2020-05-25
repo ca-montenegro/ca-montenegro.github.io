@@ -173,14 +173,6 @@
 			"iconClass":"fas fa-calendar-alt fa-2x fa-fw"
 		},
 		{
-			"name":"BikeLab",
-			"teamSize":2,
-			"description":"Online Marketplace for Bike Lovers. Project for CS Web Development 2018.",
-			"technologies":"React JS, Mongo DB, Node JS, Heroku, HTML, CSS",
-			"repository":"https://github.com/ca-montenegro/bikelab",
-			"iconClass":"fa fa-bicycle fa-2x fa-fw"
-		},
-		{
 			"name":"Digit Recognizer",
 			"teamSize":1,
 			"description":"Application aimed to explain Tensorflow js, canvas and D3. MNIST Digit recognizer app. This app was made with educational purpose and for entertain. Tutorial Video in the repo.",

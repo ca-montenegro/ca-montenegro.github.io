@@ -28,7 +28,7 @@
 		var tet = $("<p>").text(v.description);
 		var role = $("<h3>").text(v.role);
 		var date = $("<p>").text(v.dates);
-		var div = $("<div>").addClass("col-md-4").append(img).append(role)
+		var div = $("<div>").addClass("col-md-6").append(img).append(role)
 		.append(tet)
 		.append(date);
 		$("#workExperienceList").append(div);
