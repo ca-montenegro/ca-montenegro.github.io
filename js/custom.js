@@ -23,7 +23,8 @@
 		var img = $("<img>").addClass("img-responsive").attr({
 			src: v.image,
 			alt: v.descrp,
-			align:"center"
+			align:"center",
+			display:"inline-block !important"
 		});
 		var tet = $("<p>").text(v.description);
 		var role = $("<h3>").text(v.role);
@@ -42,7 +43,8 @@
 		var img = $("<img>").addClass("img-responsive").attr({
 			src: v.image,
 			alt: v.descrp,
-			align:"center"
+			align:"center",
+			display:"inline-block !important"
 		});
 		var tet = $("<p>").text(v.description);
 		var role = $("<h3>").text(v.role);
