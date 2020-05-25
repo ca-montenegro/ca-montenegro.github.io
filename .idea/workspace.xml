@@ -4,8 +4,6 @@
     <list default="true" id="cedbdc9f-960f-4025-80d1-6d0a2945eeb1" name="Default" comment="Page Update 2020">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/custom.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +60,7 @@
       <workItem from="1550430470339" duration="3194000" />
       <workItem from="1551012915482" duration="127000" />
       <workItem from="1561310090301" duration="2827000" />
-      <workItem from="1590378195888" duration="3654000" />
+      <workItem from="1590378195888" duration="3975000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1561394261399</created>
@@ -92,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590381074935</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Page Update 2020">
+      <created>1590381937078</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590381937078</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
