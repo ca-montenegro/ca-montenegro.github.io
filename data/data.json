@@ -1,10 +1,26 @@
 [{
 	"about": {
-		"description": "I’m a 21-year old systems and computing engineer (Computer Science) with knowledge in enterprise management, enthusiastic with deep learning and data science. I'm a Colombian guy who really enjoy learning new things, the good food, family & friends, travel and having fun. Love my family, coding, coffee and sports. I also make part of the university Squash Team and have been training for more than 10 years. If you liked what you have read so far, don't hesitate in reading this awesome page, my linkedIn profile and contact me as well.",
+		"description": "I’m a 22-year old systems and computing engineer (Computer Science) with knowledge in enterprise management, enthusiastic with deep learning and data science, currently working as an IT Consultant in a colombian digital transformation company. I'm a Colombian guy who really enjoy learning new things, the good food, family & friends, travel and having fun. Love my family, coding, coffee and sports. I also make part of the university Squash Team and have been training for more than 10 years. If you liked what you have read so far, don't hesitate in reading this awesome page, my linkedIn profile and contact me as well.",
 		"subdescription": "",
 		"subsubdescription":""
 	},
-	"workExperience": [{
+
+	"educationExperience": [
+		{
+			"role": "Udacity AWS Cloud Architect Nanodegree",
+			"description": "Plan, design, and implement secure cloud infrastructure in AWS at scale using best practices and strategies",
+			"dates": "May/2020-Present",
+			"image": "img/udacity.png",
+			"descrp": "Udacity logo"
+		},
+		{
+			"role": "Udacity Data Engineering Nanodegree",
+			"description": "Design data models, build data warehouses and data lakes, automate data pipelines and work with massive datasets",
+			"dates": "Apr/2020-May/2020",
+			"image": "img/udacity.png",
+			"descrp": "Udacity logo"
+		},
+		{
 			"role": "Eindhoven, Netherlands",
 			"description": "Minor in the Master of Computer Science & Mathematics. Data Science track. QS Ranking: 102",
 			"dates": "Feb/2019-Jul/2019",
@@ -17,20 +33,6 @@
 			"dates": "Aug/2015-Dec/2019",
 			"image": "img/uniandes.png",
 			"descrp": "Universidad de los Andes Image"
-		},
-		{
-			"role": "Undergraduate Research Assistant",
-			"description": "Worked as software developer in business process simulation with Deep Learning. PhD project. Code LSTM/RNN algorithm that learn and predict inter-arrival times based on business process log.",
-			"dates": "Feb/2017-Dec/2018",
-			"image": "img/graduated-logo.png",
-			"descrp": "Undergraduate Research Assistant Image"
-		},
-		{
-			"role": "Undergraduate Research Assistant",
-			"description": "Worked as assistant towards a PhD project that involves Tensor Flow, deep learning and repository data mining.",
-			"dates": "Aug/2017-Dec/2017",
-			"image": "img/graduated-logo.png",
-			"descrp": "Undergraduate Research Assistant Image"
 		},
 		{
 			"role": "Machine Learning",
@@ -52,6 +54,29 @@
 			"dates":"Sep/2017",
 			"image":"img/IBMBlockchain.png",
 			"descrp": "IBM Blockchain Logo"
+		}
+	],
+	"workExperience": [
+		{
+			"role": "IT Consultant Intern",
+			"description": "Develop support analysis to configure and deliver the strategic implementation of core projects. Help in the management of soft- ware providers for in-house projects.\nUnderstand business units by approaching customers and users and promote discussions that lead to understanding possible tech- nical scenarios of the objective solution.",
+			"dates": "Jan/2020-Present",
+			"image": "img/AdvantisGris.png",
+			"descrp": "Advantis Logo"
+		},
+		{
+			"role": "Undergraduate Research Assistant",
+			"description": "Developed LSTM-Recurrent Neural Network algorithm that learns and predicts inter-arrival times based on businesses processes logs. Completed and improved modules for Ph.D. project publication: logs parameters extraction, automate the discovery of process models from event logs and simulation of business process using Bizagi, BIMP, ProM, and Disco",
+			"dates": "Feb/2017-Dec/2019",
+			"image": "img/graduated-logo.png",
+			"descrp": "Undergraduate Research Assistant Image"
+		},
+		{
+			"role": "Undergraduate Research Assistant",
+			"description": "Worked as assistant towards a PhD project that involves Tensor Flow, deep learning and repository data mining.",
+			"dates": "Aug/2017-Dec/2017",
+			"image": "img/graduated-logo.png",
+			"descrp": "Undergraduate Research Assistant Image"
 		},
 		{
 			"role": "Teaching Assistant",
@@ -64,16 +89,22 @@
 	],
 	"skills":[
 		{
+			"name":"Python",
+			"level":4,
+			"image":"img/python-logo.png",
+			"descrp":"Python Logo"
+		},
+		{
 			"name":"Java",
 			"level":4,
 			"image":"img/java-logo.png",
 			"descrp":"Java Logo"
 		},
 		{
-			"name":"Python",
+			"name":"AWS Tools",
 			"level":3,
-			"image":"img/python-logo.png",
-			"descrp":"Python Logo"
+			"image":"img/aws-logo.png",
+			"descrp":"AWS Logo"
 		},
 		{
 			"name":"SQL",
@@ -101,6 +132,14 @@
 		}
 	],
 	"projects":[
+		{
+			"name":"Data Engineering Projects",
+			"teamSize":1,
+			"description":"Design and build an automated ETL pipeline that transforms raw real-world data into data models in a Data Lake which can be easily accessed to perform data analysis",
+			"technologies":"Python, AWS(Redshift, S3, Glue, EMR) Apache(Spark, Cassandra, Airflow), PostgreSQL",
+			"repository":"https://github.com/ca-montenegro/NanodegreeDataEngineering",
+			"iconClass":"fas fa-cloud fa-2x fa-fw"
+		},
 		{
 			"name":"Deep Learning Projects",
 			"teamSize":3,

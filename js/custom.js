@@ -34,6 +34,25 @@
 		$("#workExperienceList").append(div);
 
 	});
+
+	/* Section: Work Experience, load the info from json with each jQuery function*/
+	$.each(data[0].educationExperience, function (k,v) {
+
+
+		var img = $("<img>").addClass("img-responsive").attr({
+			src: v.image,
+			alt: v.descrp,
+			align:"center"
+		});
+		var tet = $("<p>").text(v.description);
+		var role = $("<h3>").text(v.role);
+		var date = $("<p>").text(v.dates);
+		var div = $("<div>").addClass("col-md-4").append(img).append(role)
+			.append(tet)
+			.append(date);
+		$("#educationExperienceList").append(div);
+
+	});
         /* Section: Skills, load the info from json with each jQuery function*/
 	$.each(data[0].skills, function(k,v){
 		var img = $("<img>").addClass("img-responsive").attr({
