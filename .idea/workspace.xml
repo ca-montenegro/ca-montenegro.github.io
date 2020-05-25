@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cedbdc9f-960f-4025-80d1-6d0a2945eeb1" name="Default" comment="Page Update 2020">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="cedbdc9f-960f-4025-80d1-6d0a2945eeb1" name="Default" comment="Page Update 2020" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +57,7 @@
       <workItem from="1550430470339" duration="3194000" />
       <workItem from="1551012915482" duration="127000" />
       <workItem from="1561310090301" duration="2827000" />
-      <workItem from="1590378195888" duration="5080000" />
+      <workItem from="1590378195888" duration="5441000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1561394261399</created>
@@ -110,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590383172739</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Page Update 2020">
+      <created>1590383463526</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1590383463526</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
