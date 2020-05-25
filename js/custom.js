@@ -44,7 +44,6 @@
 			src: v.image,
 			alt: v.descrp,
 			align:"center",
-			display:"inline-block !important"
 		});
 		var tet = $("<p>").text(v.description);
 		var role = $("<h3>").text(v.role);
@@ -96,7 +95,8 @@
 		var mainDiv4 = $("<div>").addClass("service-icon").append(fafa);
 		var mainDiv3 = $("<div>").addClass("service-box").append(mainDiv4).append(divService);
 		var mainDiv2 = $("<div>").addClass("animated rotateInDownLeft").append(mainDiv3);
-		var mainDiv = $("<div>").addClass("col-md-4").append(mainDiv2);
+		var mainDiv1 = $("<div>").addClass("col-md-4").append(mainDiv2);
+		var mainDiv = $("<div>").addClass("projects-class").append(mainDiv1);
 		$("#projectsList").append(mainDiv);
 
 	});
